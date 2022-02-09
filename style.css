@@ -59,9 +59,8 @@ h4{
 
 .workcontainer1{
     position: absolute;
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 1400px;
     height: 215px;
@@ -69,37 +68,32 @@ h4{
     margin-left: 56px;
 }
 
-.illu01_01{
+.scul01_01{
     width: 180px;
     height: 170px;
-    margin-left: 25%;
-    background-image: url(sculpture01-01.png);
-    background-size: contain;
 }
 
-.illu01_02{
+.scul01_02{
     width: 180px;
     height: 170px;
-    margin-left: 25%;
-    background-image: url(sculpture01-02.png);
-    background-size: contain;
 }
 
-.illu01_03{
+.scul01_03{
     width: 180px;
     height: 170px;
-    margin-left: 25%;
-    background-image: url(sculpture01-03.png);
-    background-size: contain;
+    margin-right: 1.5%;
 }
 
 p{
-    margin-left: 12%;
+    width: 250px;
     font-size: 21px;
     font-family: 'Baloo Bhaijaan 2', cursive;
     color: #515151;
 }
 
+p:hover{
+    font-style: italic;
+}
 
 
 
@@ -108,9 +102,8 @@ p{
 
 .workcontainer2{
     position: absolute;
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 1400px;
     height: 215px;
@@ -118,39 +111,29 @@ p{
     margin-left: 56px;
 }
 
-.illu02_01{
+.scul02_01{
     width: 180px;
     height: 170px;
-    margin-left: 25%;
-    background-image: url(sculpture02-01.png);
-    background-size: contain;
 }
 
-.illu02_02{
+.scul02_02{
     width: 180px;
     height: 170px;
-    margin-left: 25%;
-    background-image: url(sculpture02-02.png);
-    background-size: contain;
 }
 
-.illu02_03{
+.scul02_03{
     width: 180px;
     height: 170px;
-    margin-left: 25%;
-    background-image: url(sculpture02-03.png);
-    background-size: contain;
+    margin-right: 1.5%;
 }
-
 
 
 
 
 .workcontainer3{
     position: absolute;
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 1400px;
     height: 215px;
@@ -158,26 +141,25 @@ p{
     margin-left: 56px;
 }
 
-.illu03_01{
+.scul03_01{
     width: 180px;
     height: 170px;
-    margin-left: 25%;
     background-color: aliceblue;
 }
 
-.illu03_02{
+.scul03_02{
     width: 180px;
     height: 170px;
-    margin-left: 25%;
     background-color: aliceblue;
 }
 
-.illu03_03{
+.scul03_03{
     width: 180px;
     height: 170px;
-    margin-left: 25%;
+    margin-right: 1.5%;
     background-color: aliceblue;
 }
+
 
 
 
@@ -187,9 +169,8 @@ p{
 
 .workcontainer4{
     position: absolute;
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 1400px;
     height: 215px;
@@ -197,24 +178,22 @@ p{
     margin-left: 56px;
 }
 
-.illu04_01{
+.scul04_01{
     width: 180px;
     height: 170px;
-    margin-left: 25%;
     background-color: aliceblue;
 }
 
-.illu04_02{
+.scul04_02{
     width: 180px;
     height: 170px;
-    margin-left: 25%;
     background-color: aliceblue;
 }
 
-.illu04_03{
+.scul04_03{
     width: 180px;
     height: 170px;
-    margin-left: 25%;
+    margin-right: 1.5%;
     background-color: aliceblue;
 }
 
@@ -234,6 +213,7 @@ p{
     width: 1400px;
     margin-top: 200px;
     margin-left: 56px;
+    pointer-events: none;
 }
 
 .line1{
